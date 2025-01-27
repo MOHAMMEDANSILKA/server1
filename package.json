@@ -10,6 +10,8 @@
   "description": "",
   "dependencies": {
     "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "mongose": "^0.0.2-security",
     "ollama": "^0.5.12",
     "postman": "^0.2.0"
   }
