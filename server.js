@@ -3,6 +3,8 @@ const app=express();
 const mongoose=require('mongoose');
 //code for mongodb
 mongoose.connect('mongodb://localhost/subscribers');
-const db=mongoose,connect;
+const db=mongoose.connnection;
+db
+
 app.listen(3000,()=>console.log("server is started"));
 
