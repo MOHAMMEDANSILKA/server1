@@ -12,7 +12,7 @@ let books = [
 ];
 
 // ----------------------
-// 1. GET ALL BOOKS
+
 // ----------------------
 app.get('/books', (req, res) => {
   res.json(books);
