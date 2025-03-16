@@ -19,7 +19,7 @@ app.get('/books', (req, res) => {
 });
 
 // ----------------------
-// 2. GET SINGLE BOOK BY ID
+
 // ----------------------
 app.get('/books/:id', (req, res) => {
   const book = books.find(b => b.id === parseInt(req.params.id));
