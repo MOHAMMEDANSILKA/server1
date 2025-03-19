@@ -53,7 +53,7 @@ app.put('/books/:id', (req, res) => {
 });
 
 // ----------------------
-// 5. DELETE BOOK
+
 // ----------------------
 app.delete('/books/:id', (req, res) => {
   const index = books.findIndex(b => b.id === parseInt(req.params.id));
