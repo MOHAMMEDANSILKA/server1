@@ -1,4 +1,4 @@
-const cart=["paste","juice","milk"];
+const cart=["paste","juice","milk","rice"];
 createOrder(cart, function(orderId){
   proceedToPayment(orderId);
 });
