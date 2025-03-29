@@ -37,7 +37,7 @@ app.post('/books', (req, res) => {
   res.status(201).json(book);
 });
 
-// ----------------------
+
 // 4. UPDATE BOOK (PUT)
 // ----------------------
 app.put('/books/:id', (req, res) => {
