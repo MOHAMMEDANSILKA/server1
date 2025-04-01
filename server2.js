@@ -23,7 +23,7 @@ app.get('/books/:id', (req, res) => {
   res.json(book);
 });
 
-// ----------------------
+// ---------------------
 // 3. CREATE NEW BOOK (POST)
 // ----------------------
 app.post('/books', (req, res) => {
