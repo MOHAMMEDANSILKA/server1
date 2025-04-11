@@ -50,7 +50,7 @@ app.put('/books/:id', (req, res) => {
 
 // ----
 
-// ----------------------
+// ---------------------
 app.delete('/books/:id', (req, res) => {
   const index = books.findIndex(b => b.id === parseInt(req.params.id));
   if (index === -1) return res.status(404).json({ message: 'Book not found' });
