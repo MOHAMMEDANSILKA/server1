@@ -1,1 +1,3 @@
-
+//node js practice
+var http=require('http');
+http.createServer()
