@@ -1,6 +1,6 @@
 const express=require('express');
 const app=express();
-//mongoose..,
+//mongoose..
 const mongoose=require('mongoose');
 
 mongoose.connect('mongodb://localhost/subscribers');
