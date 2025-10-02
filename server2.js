@@ -4,7 +4,6 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-
 let books = [
   { id: 1, title: "The Alchemist", author: "Paulo Coelho" },
   { id: 2, title: "Atomic Habits", author: "James Clear" }
