@@ -55,7 +55,6 @@ app.delete('/books/:id', (req, res) => {
   books.splice(index, 1);
   res.status(204).send(); // 204 = No Content
 });
-
 // Start server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
