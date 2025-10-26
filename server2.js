@@ -23,6 +23,7 @@ app.get('/books/:id', (req, res) => {
 // --------------------
 // 3. CREATE NEW BOOK (POST)
 // ----------------------
+
 app.post('/books', (req, res) => {
   const book = {
     id: books.length + 1,
